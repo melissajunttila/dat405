@@ -1,24 +1,24 @@
 function setup() {
   // Create the canvas
   createCanvas(720, 400);
-  background(200);
+  background(10);
 
   // Set colors
-  fill(204, 101, 192, 127);
-  stroke(127, 63, 120);
+  fill(130, 101, 192, 127);
+  stroke(130, 101, 127);
 
   // A rectangle
-  rect(40, 120, 120, 40);
+  rect(350, 30, 80, 80);
   // An ellipse
-  ellipse(240, 240, 80, 80);
+  ellipse(100, 300, 500, 500);
   // A triangle
-  triangle(300, 100, 320, 100, 310, 80);
+  //triangle(300, 100, 340, 100, 200, 30);
 
   // A design for a simple flower
   translate(580, 200);
   noStroke();
   for (var i = 0; i < 10; i ++) {
-    ellipse(0, 30, 20, 80);
+    ellipse(0, 70, 70, 80);
     rotate(PI/5);
   }
 }
