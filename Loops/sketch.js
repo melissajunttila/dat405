@@ -1,24 +1,18 @@
-//02_Nested For-Loop - Console
+let size = 50
 
 function setup() {
   createCanvas(500, 500);
-  noLoop();
-  textSize(22);
-  //textAlign(CENTER);
+  frameRate(3);
 }
 
 function draw() {
-  background(60);
-  //Run the nested loop for x, and y
+  fill(215, 200, 170);
   for (let y = 0; y < 10; y++) {
     for (let x = 0; x < 10; x++) {
-      //Print result to the console
-      //Open Chrome > View > Developer > Javascript Console
-      console.log("X: " + x + ", Y: " + y)
+      rect(size * x, size * y, size, size);
+
+      fill(random(255), random(255), random(255));
+      rect(12.5+size*x, 12.5+size*y, size/2, size/2);
     }
   }
-  fill(255);
-  text("Open the Developer > Javascript Console", 10, 100);
-  text("to see the nested-loop number values", 10, 130);
-
 }
