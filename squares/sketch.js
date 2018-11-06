@@ -13,6 +13,7 @@ function setup() {
   console.log("Initialization: OK")
   createCanvas(500,500);
 }
+//
 
 //Rendering function
 function draw() {
