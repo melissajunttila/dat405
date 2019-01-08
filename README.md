@@ -13,3 +13,12 @@ My intention was to make all of these text and shapes go together well even thou
 
 My GitHub link: https://github.com/melissajunttila/dat405
 
+
+Assignment 2 Melissa Junttila
+
+In this assignment we were asked to create an interactive data visualization work that reads an online/offline set of data and visualizes the content either as a static display or animated.
+
+I chose the OpenWeatherMap API as the database of my program, because it is very clear to use for a beginner like me and has a lot of different weather information in it. At first I tried to use some film open data and make a visualization of that, but it turned out to be way too complex for me at this stage of learning and I had to change my idea at the last day before deadline.
+
+In my program you can search for weather information in any city in the world by writing the name of it on the search box and clicking search. I added a mousepressed event to the search button to make it work. Then the program shows information of the current temperature, humidity and wind speed in the chosen city by text and also image icons are linked to each piece of information. These icons change their size depending on the weather information of each city. So when for example the temperature is colder, the icon is smaller than it is when it is warmer.
+
